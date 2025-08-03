@@ -1,8 +1,6 @@
 import type { Metadata } from "next";
 import { Poppins } from "next/font/google";
-import "./globals.css";
-import ResponsiveNav from "@/components/HomeComponent/Navbar/ResponsiveNav";
-import Footer from "@/components/HomeComponent/Footer/Footer";
+import "../globals.css";
 
 
 
@@ -28,11 +26,11 @@ export default function RootLayout({
       <body
         className={`${font.className} antialiased`}
       >
-   <ResponsiveNav />
+   <h1>hello kennedy</h1>
   
         {children}
 
-        <Footer />
+        
       </body>
     </html>
   );
